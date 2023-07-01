@@ -76,7 +76,6 @@ export default {
         },
         sendFilterValues() {
             const filterValues = [this.title, this.location, this.fullTimeContract];
-            console.log(filterValues);
             this.$emit("populateFilterArr", ...filterValues);
         },
         updateFullTimeContract() {

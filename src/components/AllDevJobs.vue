@@ -33,10 +33,6 @@ export default {
         },
         handleFilterValues(title, location, fullTimeContract) {
             this.filterValuesArr = [title, location, fullTimeContract];
-            console.log(title)
-            console.log(location)
-            console.log(fullTimeContract)
-            console.log(this.filterValuesArr[0])
         }
     },
     computed: {

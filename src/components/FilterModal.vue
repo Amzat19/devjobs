@@ -36,7 +36,6 @@ export default {
         },
         sendModalFilterValues() {
             const modalFilterValues = [this.modalLocation, this.modalFullTimeContract];
-            console.log(modalFilterValues);
             this.$emit("populateFilterValues", ...modalFilterValues);
         },
         updateModalFullTimeContract() {
